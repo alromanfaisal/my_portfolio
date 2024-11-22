@@ -7,6 +7,10 @@ body {
         "wdth" 100;
 }
 
+.header {
+    background-color: bisque;
+}
+
 /*shared style*/
 .text-primary {
     color: rgb(253, 110, 10);
@@ -26,6 +30,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 
 
 }
@@ -33,6 +38,7 @@ nav {
 .nav-title {
     font-size: 45px;
     font-weight: 800;
+    /*margin-left: 20px;*/
 }
 
 nav>ul {
@@ -48,4 +54,16 @@ nav li {
 
 nav a {
     text-decoration: none;
+}
+
+/*header end*/
+.banner {
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile_pic {
+    width: 500px;
+
 }
